@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+body{
+    background-image: url(863989.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form
+{font-family: 'Comfortaa',sans-serif;
+    top: 75px;
+    left: 25%;
+    border-radius: 17px;
+    background-color:rgba(8, 30, 54,0.9);
+    width: 700px;
+    height:600px;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+}
+.topbar {font-family: 'Comfortaa',sans-serif;
+    background-color: rgba(8, 30, 54,0.9);
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:100;
+    left: 0px;
+    height: 55px;
+}
+.link{
+    text-decoration: none;
+}
+.spcbutton:link{
+    background-color:  rgba(8, 30, 54,0);
+}
+.spcbutton:visited{
+    background-color:  rgba(8, 30, 54,0);
+}
+.spcbutton:hover{
+    background-color: rgb(240, 200, 234);
+    color:  rgb(8, 30, 54);
+    border-top:  rgb(240, 200, 234);
+    border-color:  rgb(240, 200, 234);
+}
+.spcbutton:active{
+    background-color:  rgb(240, 200, 234);
+    color:  rgb(8, 30, 54);
+    border-top:  rgb(240, 200, 234);
+    border-color:  rgb(240, 200, 234);
+}
+.spcbutton:focus{
+    border:none;
+}
+.spcbutton
+{font-family: 'Comfortaa',sans-serif;
+    background-color: rgb(8, 30, 54);
+    color: rgb(240, 200, 234);
+    position:fixed;
+    top:10px;
+    width:70px;
+    z-index:100;
+    right: 10px;
+    height: 35px;
+    border-color: rgb(8, 30, 54);
+    border-bottom: rgb(8, 30, 54);
+    border-left-color:  rgb(240, 200, 234);
+    border-right-color: rgb(240, 200, 234);
+    transition: 0.4s;
+}
+.heading
+{
+    color: rgb(240, 200, 234);
+   
+    width: 50%;
+    padding-bottom: 2px;
+    padding-top: 25px;
+    margin: auto;
+    font-family: 'Comfortaa',sans-serif;
+    font-size: 40px;
+}
+.textbox{font-family: 'Comfortaa',sans-serif;
+    width:250px;
+    float: left;
+    padding-bottom: 10px;
+    margin: 30px;
+    margin-left: 40px;
+    position: relative;
+}
+.textbox input[type=password]{
+    margin-bottom: 40px;
+}
+
+.textbox input[type=password]:focus{
+    margin-bottom: 39px;
+}
+.textbox input{font-family: 'Comfortaa',sans-serif;
+    width: 250px;
+    fill: none;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(240, 200, 234);
+    font-size: 18px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    padding-left: 30px;
+    color: rgb(240, 200, 234);
+    border-radius: 5px;
+    padding-top: 5px;
+    transition: 0.5s;
+    left: 0px;
+    position: absolute;
+}
+.textbox input[type=email]{font-family: 'Comfortaa',sans-serif;
+    width: 250px;
+    fill: none;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(240, 200, 234);
+    font-size: 18px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    padding-left: 30px;
+    color: rgb(240, 200, 234);
+    border-radius: 5px;
+    padding-top: 5px;
+    transition: 0.5s;
+    left: 0px;
+    position: absolute;
+}
+.textbox input:focus{font-family: 'Comfortaa',sans-serif;
+    width: 250px;
+    fill: none;
+    background-color: rgba(50, 4, 255, 0.3);
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid rgb(240, 200, 234);
+    font-size: 18px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    padding-left: 30px;
+    outline: none;
+    color:  rgb(240, 200, 234);
+    box-shadow: 0px 3px 1px rgba(36, 0, 196, 0.3);
+    position: absolute;
+}
+.textbox input[type=email]:focus{font-family: 'Comfortaa',sans-serif;
+    width: 250px;
+    fill: none;
+    background-color: rgba(50, 4, 255, 0.3);
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid rgb(240, 200, 234);
+    font-size: 18px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    padding-left: 30px;
+    outline: none;
+    color:  rgb(240, 200, 234);
+    box-shadow: 0px 3px 1px rgba(36, 0, 196, 0.3);
+    position: absolute;
+}
+::placeholder
+{
+    color: rgb(240, 200, 234);
+}
+.textbox i{
+    margin: 0px;
+    border: none;
+    width: 15px;
+    color: rgb(240, 200, 234);
+    font-size: 16px;
+    position: absolute;
+    left: 6px;
+    top: 5px;
+}
+.normbutton{font-family: 'Comfortaa',sans-serif;
+    fill: none;
+    background: transparent;
+    border: 2px solid rgb(240, 200, 234);
+    height:30px;
+    position: absolute;
+    bottom: 90px;
+    width: 50%;
+    height: 35px;
+    left: 25%;
+    text-align: center;
+    padding-top: 3px;
+    font-style: 'smachol';
+    font-size: 17px;
+    color: rgb(240, 200, 234);
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.normbutton:hover{
+    background-color:  rgb(240, 200, 234);
+    color: black;
+}
+.normbutton:focus{
+    background-color:  rgb(240, 200, 234);
+    color: black;
+    outline: none;
+    border:none;
+}
+.error{
+    color:purple;
+    text-decoration: underline;
+}
+.errorsep{font-family: 'Comfortaa',sans-serif;
+    color: red;
+    text-decoration: underline;
+    margin: none;
+    position: absolute;
+    margin-top: 3px;
+    left: 33%;
+    top: 14px;
+    transition: 0.3s;
+} 

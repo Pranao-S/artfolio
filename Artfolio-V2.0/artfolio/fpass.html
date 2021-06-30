@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="homepage/homepage2.css"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+    <div class="background">    
+        <div class="topbar">
+            <img style="height: 40px; margin-left: 10px ;margin-top: 10px" src="Header-Name1.jpg">
+            <a href="login.php" class="link"><button class="spcbutton"><b>Back</b></button></a>
+        </div>
+        <br><br><br><br><br><br><br>
+        <div class="form">
+            <h2 class="heading">FORGOT PASSWORD ?</h2>
+            <br>
+            <form method="POST" action="fpass.php">  
+                <div class="textbox">
+                    <input type="text" name="email" placeholder="Email" autocomplete="off" required>
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </div>
+                
+                <div class="textbox">
+                    <input type="text" name="secq" placeholder="Security Question" autocomplete="off" required>
+                    <i class="fa fa-key" aria-hidden="true"></i>
+                    
+                </div>
+                <div class="textbox">
+                    <input type="text" name="seca" placeholder="Security Answer" autocomplete="off" required>
+                    <i class="fa fa-key" aria-hidden="true"></i>
+                    
+                </div>    
+                <br>
+                <br>
+                <button type="submit" class="normbutton" name="fpass"><b>Sign In</b></button>
+                
+            </form>
+          
+        </div>
+    </div>
+</body>
+</html>

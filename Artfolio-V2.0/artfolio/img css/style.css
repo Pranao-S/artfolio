@@ -1,0 +1,50 @@
+.topbar {font-family: 'Comfortaa',sans-serif;
+    background-color: rgba(8, 30, 54,0.9);
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:100;
+    left: 0px;
+    height: 55px;
+}
+.link{
+    text-decoration: none;
+}
+.spcbutton:link{
+    background-color:  rgba(8, 30, 54,0);
+}
+.spcbutton:visited{
+    background-color:  rgba(8, 30, 54,0);
+}
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+.spcbutton:hover{
+    background-color: rgb(240, 200, 234);
+    color:  rgb(8, 30, 54);
+    border-top:  rgb(240, 200, 234);
+    border-color:  rgb(240, 200, 234);
+}
+.spcbutton:active{
+    background-color:  rgb(240, 200, 234);
+    color:  rgb(8, 30, 54);
+    border-top:  rgb(240, 200, 234);
+    border-color:  rgb(240, 200, 234);
+}
+.spcbutton:focus{
+    border:none;
+}
+.spcbutton
+{font-family: 'Comfortaa',sans-serif;
+    background-color: rgb(8, 30, 54);
+    color: rgb(240, 200, 234);
+    position:fixed;
+    top:10px;
+    width:70px;
+    z-index:100;
+    right: 10px;
+    height: 35px;
+    border-color: rgb(8, 30, 54);
+    border-bottom: rgb(8, 30, 54);
+    border-left-color:  rgb(240, 200, 234);
+    border-right-color: rgb(240, 200, 234);
+    transition: 0.4s;
+}
